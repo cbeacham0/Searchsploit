@@ -1,0 +1,18 @@
+searchsploit is the command 
+searchsploit <search_term>
+example - searchsploit apache
+This command will search the Exploit Database for any exploits related to the specified term. You can also use various options with searchsploit to refine your search. Here are a few useful options:
+
+-t : Perform a title search only.
+-p : Perform a path search only.
+-w : Display the results in a web browser.
+-j : Output results in JSON format.
+
+For example, to search for Apache exploits and display the results in a web browser, you would use:
+
+searchsploit -w apache
+
+If you need more detailed information, you can refer to the searchsploit manual by running:
+
+man searchsploit
+
